@@ -1,0 +1,16 @@
+CARA MEMBUAT APK "NILAI KELAS IV"
+
+Cara paling mudah tanpa memasang apa pun: GitHub Actions
+ 1. Buat akun di github.com (gratis), lalu buat repositori baru (New repository).
+ 2. Unggah SELURUH isi folder ini ke repositori (termasuk folder .github).
+    Di halaman repositori: Add file > Upload files, seret semua isi folder.
+ 3. Buka tab Actions > "Build APK" > Run workflow. Tunggu sekitar 5 menit.
+ 4. Buka hasil run tersebut, unduh berkas dari bagian Artifacts (berupa zip berisi APK).
+ 5. Kirim APK ke HP, pasang (izinkan "pasang dari sumber tidak dikenal").
+
+Alternatif: Android Studio
+ File > Open folder ini > tunggu Gradle > Build > Build APK(s).
+ Gradle JDK harus 17 atau lebih baru.
+
+Isi aplikasi ada di app/src/main/assets/index.html (sudah berisi Aplikasi Nilai).
+Bila aplikasi diperbarui, ganti berkas itu lalu bangun ulang APK.
